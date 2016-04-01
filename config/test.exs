@@ -12,5 +12,7 @@ config :logger, level: :warn
 # Configure your database
 config :pocphoenix, Pocphoenix.Repo,
   adapter: Mongo.Ecto,
-  database: "teste",
-  hostname: "localhost"
+  database: "elixirmongo",
+  username: "adm", # remove if unneeded
+  password: "adm", # remove if unneeded
+  hostname: "ds011830.mlab.com:11830"
