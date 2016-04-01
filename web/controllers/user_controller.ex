@@ -52,7 +52,7 @@ defmodule Pocphoenix.UserController do
         render(conn, "edit.html", user: user, changeset: changeset)
     end
   end
-
+  
   def delete(conn, %{"id" => id}) do
     user = Repo.get!(User, id)
 

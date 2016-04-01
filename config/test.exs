@@ -17,4 +17,5 @@ config :pocphoenix, Pocphoenix.Repo,
   #password: "adm",
   #hostname: "ds011830.mlab.com",
   #port: "11830",
-  url: "mongodb://adm:adm@ds011830.mlab.com:11830/elixirmongo"
+  #url: "mongodb://adm:adm@ds011830.mlab.com:11830/elixirmongo"
+  url: "mongodb://localhost:27017/teste"
