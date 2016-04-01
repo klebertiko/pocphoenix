@@ -18,6 +18,7 @@ defmodule Pocphoenix.Router do
 
     get "/", PageController, :index
     resources "/users", UserController
+    resources "/posts", PostController, except: [:new, :edit]
   end
 
   # Other scopes may use custom stacks.
