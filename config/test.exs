@@ -12,8 +12,9 @@ config :logger, level: :warn
 # Configure your database
 config :pocphoenix, Pocphoenix.Repo,
   adapter: Mongo.Ecto,
-  database: "elixirmongo",
-  username: "adm",
-  password: "adm",
-  hostname: "ds011830.mlab.com",
-  port: "11830"
+  #database: "elixirmongo",
+  #username: "adm",
+  #password: "adm",
+  #hostname: "ds011830.mlab.com",
+  #port: "11830",
+  url: "mongodb://adm:adm@ds011830.mlab.com:11830/elixirmongo"
