@@ -12,5 +12,5 @@ config :pocphoenix, Pocphoenix.Repo,
   database: "elixirmongo",
   username: "adm",
   password: "adm",
-  hostname: "ds011830.mlab.com:11830",
+  hostname: "ds011830.mlab.com",
   port: "11830"
