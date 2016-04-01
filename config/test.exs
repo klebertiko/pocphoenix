@@ -12,5 +12,5 @@ config :logger, level: :warn
 # Configure your database
 config :pocphoenix, Pocphoenix.Repo,
   adapter: Mongo.Ecto,
-  database: "pocphoenix_test",
-  pool_size: 1
+  database: "teste",
+  hostname: "localhost"

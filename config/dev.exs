@@ -35,5 +35,5 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :pocphoenix, Pocphoenix.Repo,
   adapter: Mongo.Ecto,
-  database: "pocphoenix_dev",
-  pool_size: 10
+  database: "teste",
+  hostname: "localhost"
