@@ -13,6 +13,7 @@ config :logger, level: :warn
 config :pocphoenix, Pocphoenix.Repo,
   adapter: Mongo.Ecto,
   database: "elixirmongo",
-  username: "adm", # remove if unneeded
-  password: "adm", # remove if unneeded
-  hostname: "ds011830.mlab.com:11830"
+  username: "adm",
+  password: "adm",
+  hostname: "ds011830.mlab.com",
+  port: "11830"

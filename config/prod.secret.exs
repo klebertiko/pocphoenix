@@ -9,5 +9,8 @@ config :pocphoenix, Pocphoenix.Endpoint,
 # Configure your database
 config :pocphoenix, Pocphoenix.Repo,
   adapter: Mongo.Ecto,
-  database: "pocphoenix_prod",
-  pool_size: 20
+  database: "elixirmongo",
+  username: "adm",
+  password: "adm",
+  hostname: "ds011830.mlab.com",
+  port: "11830"
