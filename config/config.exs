@@ -9,8 +9,8 @@ use Mix.Config
 config :pocphoenix, Pocphoenix.Endpoint,
   url: [host: "localhost"],
   root: Path.dirname(__DIR__),
-  secret_key_base: "j6pnuz3nUHaifSxh+7cIHP5kOk79j/jLq1eVdAWfiXFaRYizvPlnPHGCiS8gBEQy",
-  #secret_key_base: System.get_env("SECRET_KEY_BASE"),
+  #secret_key_base: "j6pnuz3nUHaifSxh+7cIHP5kOk79j/jLq1eVdAWfiXFaRYizvPlnPHGCiS8gBEQy",
+  secret_key_base: System.get_env("SECRET_KEY_BASE"),
   render_errors: [accepts: ~w(html json)],
   pubsub: [name: Pocphoenix.PubSub,
            adapter: Phoenix.PubSub.PG2]
